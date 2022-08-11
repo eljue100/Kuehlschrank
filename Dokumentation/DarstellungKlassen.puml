@@ -43,9 +43,13 @@ class Kuehlschrank
 
 class KuehlschrankService
 
-KuehlschrankRepository <|- KuehlschrankService
+RezeptRepository <|- WochenplanService
+KuehlschrankRepository <|- WochenplanService
 
 class KuehlschrankRepository
+
+class WochenplanService
+
 
 class Benutzer
 
