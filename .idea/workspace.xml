@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42c73702-f654-4fe3-b169-e20d17eddacd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/MengenEinheit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Zutat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/pplerngruppe/RezeptTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="42c73702-f654-4fe3-b169-e20d17eddacd" name="Changes" comment="Klassen Zutat, Rezept und Enum MengenEinheit erstellt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Zutat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Zutat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660209073139</updated>
       <workItem from="1660209074959" duration="2587000" />
-      <workItem from="1660812458738" duration="1843000" />
+      <workItem from="1660812458738" duration="3017000" />
     </task>
     <task id="LOCAL-00001" summary="Klassen erstellt, erste Verbindungen">
       <created>1660210369887</created>
@@ -119,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660210369887</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Klassen Zutat, Rezept und Enum MengenEinheit erstellt">
+      <created>1660814495125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660814495125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +141,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Klassen erstellt, erste Verbindungen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Klassen erstellt, erste Verbindungen" />
+    <MESSAGE value="Klassen Zutat, Rezept und Enum MengenEinheit erstellt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klassen Zutat, Rezept und Enum MengenEinheit erstellt" />
   </component>
 </project>

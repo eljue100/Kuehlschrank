@@ -11,25 +11,26 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class RezeptTest {
 
     @Test
-    @DisplayName("")
-    @Disabled
+    @DisplayName("Ein Zutat wird zum Rezept hinzugefügt")
     void test_1(){
         Rezept rezept=new Rezept();
-        rezept.addIngredient();
-    }
-
-    @Test
-    @DisplayName("")
-    void test_2(){
         Zutat zutat=new Zutat();
-
+        rezept.addZutat(zutat);
+        assertThat(rezept.getZutaten()).contains(zutat);
     }
-
-    @Test
-    @DisplayName("")
-    void test_3(){
-
-
-    }
+//
+//    @Test
+//    @DisplayName("")
+//    void test_2(){
+//        Zutat zutat=new Zutat();
+//
+//    }
+//
+//    @Test
+//    @DisplayName("")
+//    void test_3(){
+//
+//
+//    }
 
 }
