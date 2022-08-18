@@ -14,8 +14,8 @@ public class RezeptTest {
     @DisplayName("Ein Zutat wird zum Rezept hinzugefügt")
     void test_1(){
         Rezept rezept=new Rezept();
-        Zutat zutat=new Zutat();
-        rezept.addZutat(zutat);
+        Zutat zutat=mock(Zutat.class);
+        rezept.add(zutat);
         assertThat(rezept.getZutaten()).contains(zutat);
     }
 //

@@ -2,12 +2,10 @@ package de.pplerngruppe;
 
 public class Zutat {
     private String name;
-    private MengenEinheit mengenEinheit;
-    private boolean trocken;
+    private Menge menge;
 
-
-    public Zutat() {
-//        this.name=name;
-//        this.mengenEinheit = mengenEinheit;
+    public Zutat(String name, Menge menge) {
+        this.name=name;
+        this.menge=menge;
     }
 }
