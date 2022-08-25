@@ -1,7 +1,6 @@
 package de.pplerngruppe;
 
 
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -26,9 +25,24 @@ public class RezeptTest {
         rezept.add(zutat1);
         Zutat zutat2 = mock(Zutat.class);
         rezept.add(zutat2);
-
         assertThat(rezept.getZutaten()).contains(zutat1,zutat2);
     }
+    @Test
+    @DisplayName("überprüfen, ob Rezept gespeichert wurde")
+    void test_3(){
+     Rezept rezept1=new Rezept();
+     RezeptRepository rezeptRepository = new RezeptRepository();
+     rezeptRepository.rezepte.add(rezept1);
+      assertThat(rezeptRepository.rezepte).contains(rezept1);
+    }
+//    @Test
+//    @DisplayName("")
+//    void test_4(){
+//      .
+//      .
+//      assertThat().
+//    }
+
 //
 //    @Test
 //    @DisplayName("")
