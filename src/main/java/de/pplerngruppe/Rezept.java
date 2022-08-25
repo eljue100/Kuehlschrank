@@ -29,9 +29,13 @@ public class Rezept {
 
     @Override
     public String toString() {
-        if (name==null && zutaten.isEmpty() && zubereitung==null){
-            return "";}
+        if (zutaten.isEmpty() && zubereitung==null){
+            return getName() + "ist leer.";}
         else return "Rezept{" + "Name= "+ name+"\n zutaten= " + zutaten + "Zubereitung= " + zubereitung+ '}';
+    }
+
+    private String getName() {
+        return name;
     }
 
 }

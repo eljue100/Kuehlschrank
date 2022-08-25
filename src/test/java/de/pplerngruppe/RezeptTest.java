@@ -39,33 +39,15 @@ public class RezeptTest {
     @Test
     @DisplayName("ein leeres Rezept wird korrekt ausgegeben")
     void test_4(){
-        Rezept rezept=new Rezept("test");
-        assertThat(rezept.toString()).isEqualTo("");
+        Rezept rezept= RezepteTemplate.leeresRezept();
+        assertThat(rezept.toString()).contains("ist leer.");
     }
-    @Test
-    @DisplayName("Rezept mit Name und Zutat ohne Zubereitung")
-    void test_5(){
-        Rezept rezept=new Rezept();
-
-        assertThat().
-    }
-
-
-
-
-//
 //    @Test
-//    @DisplayName("")
-//    void test_2(){
-//        Zutat zutat=new Zutat();
-//
-//    }
-//
-//    @Test
-//    @DisplayName("")
-//    void test_3(){
-//
-//
-//    }
+//    @DisplayName("Rezept mit Name und Zutat ohne Zubereitung")
+//    void test_5(){
+//        RezepteTemplate rezepteTemplate = new RezepteTemplate();
+//        Rezept rezept = RezepteTemplate.leeresRezept()
+//        assertThat(rezepteTemplate.).
+  }
 
-}
+
