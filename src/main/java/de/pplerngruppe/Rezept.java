@@ -8,7 +8,18 @@ public class Rezept {
     private String zubereitung;
     private List<Zutat> zutaten = new ArrayList<>();
 
-  //  public Rezept(Zubereitung zubereitung) { this.zubereitung = zubereitung; }
+    public Rezept(String name) {
+        this.name = name;
+    }
+
+    public Rezept(String name, List<Zutat> zutaten) {
+        this.name = name;
+        this.zutaten = zutaten;
+    }
+
+    public void setZubereitung(String zubereitung) {
+        this.zubereitung = zubereitung;
+    }
 
     public void add(Zutat zutat) {
         zutaten.add(zutat);
@@ -21,7 +32,6 @@ public class Rezept {
         if (name==null && zutaten.isEmpty() && zubereitung==null){
             return "";}
         else return "Rezept{" + "Name= "+ name+"\n zutaten= " + zutaten + "Zubereitung= " + zubereitung+ '}';
-
     }
 
 }

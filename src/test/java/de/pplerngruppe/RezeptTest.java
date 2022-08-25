@@ -9,10 +9,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class RezeptTest {
 
+
     @Test
     @DisplayName("Ein Zutat wird zum Rezept hinzugefügt")
     void test_1(){
-        Rezept rezept=new Rezept();
+        Rezept rezept=new Rezept("test");
         Zutat zutat=mock(Zutat.class);
         rezept.add(zutat);
         assertThat(rezept.getZutaten()).contains(zutat);
@@ -20,7 +21,7 @@ public class RezeptTest {
     @Test
     @DisplayName("Rezept hat zwei Zutaten")
     void test_2(){
-        Rezept rezept=new Rezept();
+        Rezept rezept=new Rezept("test");
         Zutat zutat1 = mock(Zutat.class);
         rezept.add(zutat1);
         Zutat zutat2 = mock(Zutat.class);
@@ -30,17 +31,25 @@ public class RezeptTest {
     @Test
     @DisplayName("überprüfen, ob Rezept gespeichert wurde")
     void test_3(){
-     Rezept rezept1=new Rezept();
+     Rezept rezept=new Rezept("test");
      RezeptRepository rezeptRepository = new RezeptRepository();
-     rezeptRepository.rezepte.add(rezept1);
-     assertThat(rezeptRepository.rezepte).contains(rezept1);
+     rezeptRepository.rezepte.add(rezept);
+     assertThat(rezeptRepository.rezepte).contains(rezept);
     }
     @Test
     @DisplayName("ein leeres Rezept wird korrekt ausgegeben")
     void test_4(){
-        Rezept rezept=new Rezept();
+        Rezept rezept=new Rezept("test");
         assertThat(rezept.toString()).isEqualTo("");
     }
+    @Test
+    @DisplayName("Rezept mit Name und Zutat ohne Zubereitung")
+    void test_5(){
+        Rezept rezept=new Rezept();
+
+        assertThat().
+    }
+
 
 
 
