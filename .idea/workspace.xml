@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42c73702-f654-4fe3-b169-e20d17eddacd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/RezeptRepository.java" afterDir="false" />
+    <list default="true" id="42c73702-f654-4fe3-b169-e20d17eddacd" name="Changes" comment="ein leeres Rezept">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/RezeptRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/RezeptRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/pplerngruppe/RezeptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/pplerngruppe/RezeptTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,6 @@
     "DefaultPlantUmlFileTemplate": "Empty",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/sina/PP2/Gruppenarbeit/Kuehlschrank"
   }
@@ -58,7 +58,7 @@
       <recent name="$PROJECT_DIR$/Dokumentation" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RezeptTest.test_3">
+  <component name="RunManager" selected="Gradle.RezeptTest.test_4">
     <configuration name="RezeptTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,11 +151,35 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="RezeptTest.test_4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;de.pplerngruppe.RezeptTest.test_4&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RezeptTest.test_4" />
+        <item itemvalue="Gradle.RezeptTest" />
         <item itemvalue="Gradle.RezeptTest.test_3" />
         <item itemvalue="Gradle.RezeptTest.test_2" />
-        <item itemvalue="Gradle.RezeptTest" />
         <item itemvalue="Gradle.RezeptTest.test_1" />
       </list>
     </recent_temporary>
@@ -170,7 +194,7 @@
       <updated>1660209073139</updated>
       <workItem from="1660209074959" duration="2587000" />
       <workItem from="1660812458738" duration="5129000" />
-      <workItem from="1661416871430" duration="2575000" />
+      <workItem from="1661416871430" duration="5121000" />
     </task>
     <task id="LOCAL-00001" summary="Klassen erstellt, erste Verbindungen">
       <created>1660210369887</created>
@@ -200,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661418564325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Klasse RezeptRepository eingefügt und test geschrieben, ob rezepte gespeichert wird oder nicht">
+      <created>1661419513567</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1661419513567</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +253,7 @@
     <MESSAGE value="Klassen Zutat, Rezept und Enum MengenEinheit erstellt" />
     <MESSAGE value="Test zum Hinzufügen einer Zutat zu einem Rezept geschrieben" />
     <MESSAGE value="neuen Test mit zwei Zutaten eingegeben" />
-    <option name="LAST_COMMIT_MESSAGE" value="neuen Test mit zwei Zutaten eingegeben" />
+    <MESSAGE value="Klasse RezeptRepository eingefügt und test geschrieben, ob rezepte gespeichert wird oder nicht" />
+    <option name="LAST_COMMIT_MESSAGE" value="Klasse RezeptRepository eingefügt und test geschrieben, ob rezepte gespeichert wird oder nicht" />
   </component>
 </project>

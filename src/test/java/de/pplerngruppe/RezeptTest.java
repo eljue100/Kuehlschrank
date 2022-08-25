@@ -33,15 +33,16 @@ public class RezeptTest {
      Rezept rezept1=new Rezept();
      RezeptRepository rezeptRepository = new RezeptRepository();
      rezeptRepository.rezepte.add(rezept1);
-      assertThat(rezeptRepository.rezepte).contains(rezept1);
+     assertThat(rezeptRepository.rezepte).contains(rezept1);
     }
-//    @Test
-//    @DisplayName("")
-//    void test_4(){
-//      .
-//      .
-//      assertThat().
-//    }
+    @Test
+    @DisplayName("ein leeres Rezept wird korrekt ausgegeben")
+    void test_4(){
+        Rezept rezept=new Rezept();
+        assertThat(rezept.toString()).isEqualTo("");
+    }
+
+
 
 //
 //    @Test
