@@ -11,8 +11,6 @@ public class Rezept {
         zutaten.add(zutat);
     }
 
-    public List<Zutat> getZutaten() {
-        return zutaten;
-    }
+    public List<Zutat> getZutaten() {return zutaten;}
 
 }

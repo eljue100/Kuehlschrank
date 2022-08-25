@@ -18,6 +18,17 @@ public class RezeptTest {
         rezept.add(zutat);
         assertThat(rezept.getZutaten()).contains(zutat);
     }
+    @Test
+    @DisplayName("Rezept hat zwei Zutaten")
+    void test_2(){
+        Rezept rezept=new Rezept();
+        Zutat zutat1 = mock(Zutat.class);
+        rezept.add(zutat1);
+        Zutat zutat2 = mock(Zutat.class);
+        rezept.add(zutat2);
+
+        assertThat(rezept.getZutaten()).contains(zutat1,zutat2);
+    }
 //
 //    @Test
 //    @DisplayName("")
