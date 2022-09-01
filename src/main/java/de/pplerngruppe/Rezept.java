@@ -25,6 +25,10 @@ public class Rezept {
         zutaten.add(zutat);
     }
 
+    public String getName() {
+        return name;
+    }
+
     public List<Zutat> getZutaten() {
         return zutaten;
     }
@@ -55,8 +59,6 @@ public class Rezept {
 //        else return "Rezept{" + "Name= "+ name+"\n zutaten= " + zutaten + "Zubereitung= " + zubereitung+ '}';
 //    }
 
-    private String getName() {
-        return name;
-    }
+
 
 }

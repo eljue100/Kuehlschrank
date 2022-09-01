@@ -60,6 +60,18 @@ public class RezeptTest {
         assertThat(rezept.toString()).contains("Rezept: Käsekuchen, Zutaten: Käse, Kuchen, Zubereitung: Mischen");
     }
 
+    @Test
+    @DisplayName("Überprüfen, ob 2 Rezepte gespeichert wurden.")
+    void test_7() {
+        RezeptRepository rezeptRepository = new RezeptRepository();
+        Rezept rezept1 = RezepteTemplate.ohneZubereitungMitMehrereZutaten();
+        rezeptRepository.rezepte.add(rezept1);
+        Rezept rezept2 = RezepteTemplate.eineZutat();
+        rezeptRepository.rezepte.add(rezept2);
+        assertThat(rezeptRepository.rezepte).contains(rezept1).contains(rezept2);
+    }
+
+
 
 }
 
