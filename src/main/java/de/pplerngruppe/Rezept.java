@@ -25,14 +25,30 @@ public class Rezept {
         zutaten.add(zutat);
     }
 
-    public List<Zutat> getZutaten() {return zutaten;}
+    public List<Zutat> getZutaten() {
+        return zutaten;
+    }
 
     @Override
     public String toString() {
-        if (zutaten.isEmpty() && zubereitung==null){
-            return getName() + "ist leer.";}
-        else return "Rezept{" + "Name= "+ name+"\n zutaten= " + zutaten + "Zubereitung= " + zubereitung+ '}';
+        String rezeptausgabe = "Rezept: "+name+", Zutaten: ";
+
+        if (zutaten.isEmpty() && zubereitung == null) {
+            return getName() + "ist leer.";
+        }
+        else {
+
+            for (Zutat zutat : getZutaten()) {
+                rezeptausgabe += zutat.getName();
+                rezeptausgabe += ", ";
+            }
+        }
+
+        return rezeptausgabe;
     }
+
+//        else return "Rezept{" + "Name= "+ name+"\n zutaten= " + zutaten + "Zubereitung= " + zubereitung+ '}';
+//    }
 
     private String getName() {
         return name;

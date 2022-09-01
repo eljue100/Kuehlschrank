@@ -8,4 +8,8 @@ public class Zutat {
         this.name=name;
         this.menge=menge;
     }
+
+    public String getName() {
+        return name;
+    }
 }

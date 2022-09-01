@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42c73702-f654-4fe3-b169-e20d17eddacd" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Zutat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Zutat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/pplerngruppe/RezeptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/pplerngruppe/RezeptTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661424097222</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Rezepte Tests auf die Templates umgeschrieben.">
+      <created>1662023085502</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1662023085502</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +284,7 @@
     <MESSAGE value="Klasse RezeptRepository eingefügt und test geschrieben, ob rezepte gespeichert wird oder nicht" />
     <MESSAGE value="ein leeres Rezept ausgeben" />
     <MESSAGE value="RezeptTemplate erstellt wurde und zwei Methoden, eine mit leerem Rezept und andere in der Name KaeseKuchenRezept eingegeben" />
-    <option name="LAST_COMMIT_MESSAGE" value="RezeptTemplate erstellt wurde und zwei Methoden, eine mit leerem Rezept und andere in der Name KaeseKuchenRezept eingegeben" />
+    <MESSAGE value="Rezepte Tests auf die Templates umgeschrieben." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rezepte Tests auf die Templates umgeschrieben." />
   </component>
 </project>
