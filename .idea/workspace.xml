@@ -265,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662025343828</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Rezeptausgabe toString Zubereitung hinzugefügt, Test für die Ausgabe eines Rezeptes mit Zubereitung hinzugefügt.">
+      <created>1662025727946</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1662025727946</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -292,9 +299,11 @@
     <MESSAGE value="RezeptTemplate erstellt wurde und zwei Methoden, eine mit leerem Rezept und andere in der Name KaeseKuchenRezept eingegeben" />
     <MESSAGE value="Rezepte Tests auf die Templates umgeschrieben." />
     <MESSAGE value="Rezeptausgabe toString angepasst und Test angepasst." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rezeptausgabe toString angepasst und Test angepasst." />
+    <MESSAGE value="Rezeptausgabe toString Zubereitung hinzugefügt, Test für die Ausgabe eines Rezeptes mit Zubereitung hinzugefügt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rezeptausgabe toString Zubereitung hinzugefügt, Test für die Ausgabe eines Rezeptes mit Zubereitung hinzugefügt." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Kuehlschrank$Tests_in__Kuehlschrank_test_.ic" NAME="Tests in 'Kuehlschrank.test' Coverage Results" MODIFIED="1662025764906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Kuehlschrank$RezeptTest.ic" NAME="RezeptTest Coverage Results" MODIFIED="1662025424538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

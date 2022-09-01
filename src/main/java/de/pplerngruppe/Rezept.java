@@ -12,10 +12,10 @@ public class Rezept {
         this.name = name;
     }
 
-    public Rezept(String name, List<Zutat> zutaten) {
-        this.name = name;
-        this.zutaten = zutaten;
-    }
+//    public Rezept(String name, List<Zutat> zutaten) {
+//        this.name = name;
+//        this.zutaten = zutaten;
+//    }
 
     public void setZubereitung(String zubereitung) {
         this.zubereitung = zubereitung;

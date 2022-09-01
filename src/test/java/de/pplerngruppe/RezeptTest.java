@@ -59,6 +59,8 @@ public class RezeptTest {
         Rezept rezept = RezepteTemplate.zubereitungMitMehrereZutaten();
         assertThat(rezept.toString()).contains("Rezept: Käsekuchen, Zutaten: Käse, Kuchen, Zubereitung: Mischen");
     }
+
+
 }
 
 
