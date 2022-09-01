@@ -13,25 +13,26 @@ public class RezeptTest {
     @Test
     @DisplayName("Ein Zutat wird zum Rezept hinzugefügt")
     void test_1(){
-        Rezept rezept=new Rezept("test");
-        Zutat zutat=mock(Zutat.class);
-        rezept.add(zutat);
-        assertThat(rezept.getZutaten()).contains(zutat);
+        Rezept rezept=RezepteTemplate.eineZutat();
+        //Zutat zutat=mock(Zutat.class);
+        //rezept.add(zutat);
+        assertThat(rezept.getZutaten()).hasSize(1);
     }
+
     @Test
     @DisplayName("Rezept hat zwei Zutaten")
     void test_2(){
-        Rezept rezept=new Rezept("test");
-        Zutat zutat1 = mock(Zutat.class);
-        rezept.add(zutat1);
-        Zutat zutat2 = mock(Zutat.class);
-        rezept.add(zutat2);
-        assertThat(rezept.getZutaten()).contains(zutat1,zutat2);
+        Rezept rezept=RezepteTemplate.ohneZubereitungMitMehrereZutaten();
+        //Zutat zutat1 = mock(Zutat.class);
+        //rezept.add(zutat1);
+        //Zutat zutat2 = mock(Zutat.class);
+        //rezept.add(zutat2);
+        assertThat(rezept.getZutaten()).hasSize(2);
     }
     @Test
     @DisplayName("überprüfen, ob Rezept gespeichert wurde")
     void test_3(){
-     Rezept rezept=new Rezept("test");
+     Rezept rezept=RezepteTemplate.ohneZubereitungMitMehrereZutaten();
      RezeptRepository rezeptRepository = new RezeptRepository();
      rezeptRepository.rezepte.add(rezept);
      assertThat(rezeptRepository.rezepte).contains(rezept);
