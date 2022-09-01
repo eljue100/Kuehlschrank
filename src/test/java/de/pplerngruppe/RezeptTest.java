@@ -52,6 +52,13 @@ public class RezeptTest {
         Rezept rezept = RezepteTemplate.ohneZubereitungMitMehrereZutaten();
         assertThat(rezept.toString()).contains("Rezept: Käsekuchen, Zutaten: Käse, Kuchen, ");
     }
+
+    @Test
+    @DisplayName("Rezept mit Name und Zutat mit Zubereitung")
+    void test_6() {
+        Rezept rezept = RezepteTemplate.zubereitungMitMehrereZutaten();
+        assertThat(rezept.toString()).contains("Rezept: Käsekuchen, Zutaten: Käse, Kuchen, Zubereitung: Mischen");
+    }
 }
 
 

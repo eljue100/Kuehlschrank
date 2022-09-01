@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="42c73702-f654-4fe3-b169-e20d17eddacd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Rezept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Zutat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/de/pplerngruppe/Zutat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/de/pplerngruppe/RezeptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/de/pplerngruppe/RezeptTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -259,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662023085502</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Rezeptausgabe toString angepasst und Test angepasst.">
+      <created>1662025343828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1662025343828</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +291,10 @@
     <MESSAGE value="ein leeres Rezept ausgeben" />
     <MESSAGE value="RezeptTemplate erstellt wurde und zwei Methoden, eine mit leerem Rezept und andere in der Name KaeseKuchenRezept eingegeben" />
     <MESSAGE value="Rezepte Tests auf die Templates umgeschrieben." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rezepte Tests auf die Templates umgeschrieben." />
+    <MESSAGE value="Rezeptausgabe toString angepasst und Test angepasst." />
+    <option name="LAST_COMMIT_MESSAGE" value="Rezeptausgabe toString angepasst und Test angepasst." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Kuehlschrank$RezeptTest.ic" NAME="RezeptTest Coverage Results" MODIFIED="1662025424538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

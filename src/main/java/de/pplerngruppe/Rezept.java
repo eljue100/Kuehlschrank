@@ -42,6 +42,11 @@ public class Rezept {
                 rezeptausgabe += zutat.getName();
                 rezeptausgabe += ", ";
             }
+
+            if (zubereitung != null){
+                rezeptausgabe += "Zubereitung: ";
+                rezeptausgabe += zubereitung;
+            }
         }
 
         return rezeptausgabe;
